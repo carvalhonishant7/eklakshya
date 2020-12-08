@@ -6,6 +6,7 @@
     <title>Register</title>
 </head>
 <body>
+    <form action="basic.html">
     <table border="1" cellpadding="2" cellspacing= 2>
         <tr>
             <th>Entity </th>
@@ -20,12 +21,12 @@
         
         <tr>
             <td>Number</td>
-            <td> <input type="number" name="number"  > </td>
+            <td> <input type="number" pattern="[0=9]{10}" name="phone" required > </td>
 
         </tr>
         <tr>
             <td>Email</td>
-            <td> <input type="text" name="Email"  > </td>
+            <td> <input type="email" name="email" > </td>
             </tr>
 
         <tr>
@@ -54,8 +55,13 @@
             <input type="checkbox" name="BE" value="BE" >Btech
             </td>
         </tr>
+<tr><td><input type="submit"></td></tr>
+        
 
     </table>
+</form>
+    </body>
+
 
 </body>
 </html>
