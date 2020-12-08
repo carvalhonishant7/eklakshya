@@ -7,12 +7,12 @@
 </head>
 <body>
     <table></table>
-    <form> 
-        Enter name-<input type="text" name="uname" placeholder="enter name"><br>
+    <form action="basic.html"> 
+        Enter name-<input type="text" name="uname" placeholder="enter name" required minlength="3" maxlength="10"><br>
         Email-<input type="email" name="email"><br>
-        Phone number-<input type="no" name="no"><br>
-        Gender-<input type="radio" name="gen1" checked value="male"> male
-        <input type="radio" name="gen1" value="female"> female <br>
+        Phone-<input type="number" pattern="[0=9]{10}" name="phone" required><br>
+        Gender-<input type="radio" name="gen1" checked value="male" required> male
+        <input type="radio" name="gen1" value="female" required> female <br>
         Details about yourself-
         <br>
         <br>
