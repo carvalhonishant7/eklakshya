@@ -1,3 +1,4 @@
+--------------------------------------------------background.html-----------------------------------------------------------------------------------------
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,3 +79,212 @@ rs and events from other decades into a 1920s story undermines claims to histori
     </div>
 </body>
 </html>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------items.html------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #veg li:first-child{
+            
+            text-transform: uppercase;
+        }
+
+
+        #fruit li:last-child{
+            float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+   <ol style="list-style-type: disc;" id="fruit">
+    <li style="color:orange">orange</li>
+       <li>apple</li>
+       <li>mango</li>
+       <li>kiwi</li>
+       <li>banana</li>
+       
+   </ol> 
+
+   <ol style="list-style-type:upper-alpha;" id="veg">
+       <li>carrot</li>
+       <li>tomato</li>
+       <li>potato</li>
+       <li>bhindi</li>
+       <li style="color: purple;">cabbage</li>
+   </ol>
+   <ol
+   style="list-style-type: square" id="car">
+       <li><u>BMW</u></li>
+       <li>merceds</li>
+       <li style="color: blue;">lambo</li>
+       <li>maclaren</li>
+       <li>jaguar</li>
+</ol>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------about.html------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-image: url(m1.jpg);
+            background-size: cover;
+    
+            background-attachment: fixed;
+            font-family:  sans-serif;
+        }
+    
+        .me{
+            
+            width: 100%;
+            padding: 40px;
+            margin: 100px auto;
+        }
+        p{
+            font-size: 25px;
+            color: black
+        }
+        </style>
+
+</head>
+<body>
+    <div class="me"></div>
+    <h1>About myself</h1> <br>
+    <p>
+        My name is Nishant Carvalho. I am 22 years old and
+        I am from Mumbai. I completed my graduation from saint francis 
+        institute  of tech with an avg pointer of 7.07 in computer science. 
+        My hobbies include playing football and chess. 
+        We are total four members in our family including my
+        elder brother.
+
+    </p>
+    <p>I am ambitious and driven. 
+        I thrive on challenge and constantly set goals for myself, 
+        so I have something to strive towards. 
+        I’m not comfortable with settling, 
+        and I’m always looking for an opportunity to do better and achieve greatness.   
+    </p>
+    <p>
+        I’m a people person. I love meeting new people and learning about their lives and their backgrounds. 
+        I can almost always find common ground with strangers, and 
+        I like making people feel comfortable in my presence. I find this skill is especially helpful when kicking off projects with new clients.
+    </p>
+<h4>Candid picture while playing some football</h4>
+<img src="image/n1.jpg" height="350" width="350" >
+<img src="image/n2.jpg" height="350" width="350" >
+<img src="image/n3.jpg" height="350" width="350" >
+<img src="image/n4.jpg" height="350" width="350" >
+<img src="image/n5.jpg" height="350" width="350" >
+</div>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------calculator.html-----------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+</head>
+<body>
+    <table style="background-color: chartreuse; width: 200px;" border="3" cellpadding="3"   >
+        <h1>Calculator</h1>
+
+        <form>
+            <input type="text" name="uname" placeholder="|" style="width: 200px;"><br>
+        </form>
+        <p>
+        <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td style="color: red;"><button>/</button></td>
+            <td style="color:red"><button>%</button></td>
+        </tr>
+
+        <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td style="color: red;"><button>*</button></td>
+            <td style="color: red;"><button>1/x</button></td>
+        </tr>
+
+        <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td style="color: red;"><button>-</button></td>
+            <td style="color: blue;" rowspan="2"><button>=</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button>0</button></td>
+            <td style="color: red;"><button>.</button></td>
+            <td style="color: red;"><button>+</button></td>
+        </tr>
+
+
+    </p>
+
+    </table>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------index.html---------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu bar</title>
+    <style>
+        #m li{
+            background-color: cyan;
+            float:left;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid;
+            width: 200px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul style="list-style-type: none;" id="m">
+    <li><a href="about.html">About</a></li>
+    <li><a href="reg.html">Register</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+    
+    </ul>
+    
+</body>
+</html>
+------------------------------------------------------------------------END-------------------------------------------------------------------------------
