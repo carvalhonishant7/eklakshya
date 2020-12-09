@@ -287,4 +287,46 @@ rs and events from other decades into a 1920s story undermines claims to histori
     
 </body>
 </html>
-------------------------------------------------------------------------END-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------ball.html--------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .circle
+        {
+            width: 75px; height: 75px; 
+            border-radius: 50%; background-color:red;
+             position: absolute;
+              animation: move 5s linear infinite;
+        }
+
+@keyframes move{
+    0%{
+        left: 0%
+    }
+    100%{
+        left: 100%
+    }
+}
+        
+    </style>
+</head>
+<body>
+    <h1>Make the ball move</h1>
+    <center>
+        <div class="circle">
+
+        </div>
+    
+    </center>
+
+</body>
+</html>
+--------------------------------------------------------------------------END-------------------------------------------------------------------------------------------------
