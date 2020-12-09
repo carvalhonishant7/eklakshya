@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{
+        background-image: url(m1.jpg);
+        background-size: cover;
 
+        background-attachment: fixed;
+        font-family:  sans-serif;
+    }
+
+    .abc{
+        
+        width: 100%;
+        padding: 40px;
+        margin: 100px auto;
+    }
+    p{
+        font-size: 25px;
+        color: black
+    }
+    </style>
+</head>
+<body>
+    <div class="abc">
+
+        <p>
+            Peaky Blinders is a British period crime drama television series created by Steven Knight. Set in Birmingham, England, the series follows the exploits of the Shelby crime family in the direct aftermath of the First World War. The fictional family is loosely based on a real urban youth gang of the same name, who were active in the city from the 1890s to the early 20th century.
+
+Peaky Blinders features an ensemble cast, led by 
+Cillian Murphy, Helen McCrory, Joe Cole and Paul Anderson starring as 
+Tommy Shelby, Elizabeth "Polly" Gray, John Shelby and Arthur Shelby 
+respectively, the gang's senior members. Sam Neill, Tom Hardy, Paddy Considine, Adrien Brody, Aidan Gillen, Charlotte Riley, Sam Claflin and Anya Taylor-Joy also have recurring roles at various junctures of the series. The show premiered on 12 September 2013, telecast on BBC Two until the fourth series, and then shifted to BBC One for the fifth series.
+
+In 2018,[1] after the show's Drama Series win at the BAFTA TV Awards, Knight confirmed his "ambition of making it a story of a family between two wars, and by ending it with the first air raid siren in Birmingham", which was 25 June 1940.[2] After the conclusion of the fourth series, he confirmed that it would take another three series (seven in total) to complete the story up to that point.[3] The fifth series premiered on BBC One on 25 August 2019 and finished on 22 September 2019. Netflix, under the deal with Weinstein Company and Endemol, had acquired the rights 
+to release Peaky Blinders in the United States and around the world
+    
+Peaky Blinders is a gangster family of Irish and Roma origin epic set in Birmingham, England, in 1919, several months after the end of the First World War in November 1918. The story centres on the Peaky Blinders gang and their ambitious and highly cunning boss Tommy Shelby (Cillian Murphy). The gang comes to the attention of Major Chester Campbell (Sam Neill), a Detective Chief Inspector in the Royal Irish Constabulary (RIC) sent over by Winston Churchill from Belfast, where he had been sent to clean up the city of the Irish Republican Army (IRA), Communists, gangs and common criminals.[4][5] Winston Churchill (played by Andy Nyman in Series 1 and Richard McCabe in Series 2) charged him with suppressing disorder and uprising in Birmingham and recovering a stolen cache of arms meant to be shipped to Libya.[6][7] The first series concludes on 3 December 1919 – "Black Star Day", the event where the Peaky Blinders plan to take over Billy Kimber's betting pitches at the Worcester Races.
+
+The second series sees the Shelby family expand their criminal organisation in the "South and North while maintaining a stronghold in their Birmingham heartland."[8] It begins in 1921 and ends with a climax at Epsom racecourse on 31 May 1922 – Derby Day.[9]
+
+The third series starts and ends in 1924 as it follows Tommy and 
+his family entering an even more dangerous world as they once again expand, 
+this time internationally. The third series also features Father John Hughes (Paddy Considine), who is involved in an anti-communist organisation; Ruben Oliver (Alexander Siddig), a painter whom Polly enlists to paint her portrait; Russian Duchess Tatiana Petrovna (Gaite Jansen); and Linda Shelby (Kate Phillips), new wife of Arthur.
+
+The fourth series begins on Christmas Eve 1925 and ends following the general 
+strike of May 1926 with Tommy being elected as a Member of Parliament in 1927.
+
+The fifth series begins two years later on 29 October 1929 (Black Tuesday)
+ and ends on 7 December 1929, the morning after a rally led by fascist leader
+  Oswald Mosley.
+  Series 1
+Peaky Blinders was created by Steven Knight, directed by Otto Bathurst, and produced by Katie Swinden. The writers are listed as Steven Knight, Stephen Russell and Toby Finlay.[10]
+
+Screen Yorkshire provided funding for the production through the Yorkshire Content Fund, ensuring that the majority of the show was filmed in Yorkshire as part of the deal.[11] The series was filmed in Birmingham, Bradford, Dudley, Leeds, Liverpool, and Port Sunlight.[12] Railway sequences were filmed between Keighley and Damems, using carriages from the Ingrow Museum of Rail Travel (owned by Vintage Carriages Trust),[13] and carriages owned by the Lancashire and Yorkshire Railway Trust.[14] Many of the scenes for the show were shot at the Black Country Living Museum.[15]
+
+Ulster-born, New Zealand-raised Sam Neill enlisted the help of Northern Irish actors James Nesbitt and Liam Neeson to help him recover his lost Northern Irish accent for the role of C.I. Campbell. In the end, he had to tone down the accent since the series is being marketed in the United States.[16]
+
+Controversially, the production did not hire linguists to assist in the show, leading to the Gypsies' frequently speaking broken Romanian (as opposed to Romani).[17]
+
+Series 2
+A second series was commissioned shortly after the broadcast of the first and aired in October and November 2014.[8] On 11 January 2014, auditions were held in Digbeth area of Birmingham (near where parts of the series are set) for white and mixed race teenage male extras, resulting in lengthy queues.[18][19]
+
+Series 3
+Shortly after the final episode of the second series, the show announced via its Twitter account that it had been renewed for a third series.[20] On 5 October 2015, the official Peaky Blinders Twitter account announced that filming had begun for series 3.[21] Filming wrapped on 22 January 2016, after 78 days of shooting.[22][23]
+
+Series 4
+During the initial broadcast of series 3, the BBC renewed Peaky Blinders for series 4 and 5, each of which comprises six episodes.[24] Filming for series 4 started in March 2017 and premiered on 15 November 2017 on BBC Two.[25] The fourth series did not include The Weinstein Company or its logo in its credits, even though the company was formerly involved in the US distribution of the series.[26]
+
+rs and events from other decades into a 1920s story undermines claims to historical accuracy, or whether working-class life in the period is nevertheless depicted in a truthful and resonant way.[38] Reviews for the second series have remained positive, with Ellen E. Jones of The Independent commenting that "Peaky Blinders can now boast several more big-name actors to supplement the sterling work of Cillian Murphy, Helen McCrory and Sam Neill", referring to second series additions Tom Hardy and Noah Taylor.[39]
+
+
+        </p>
+    </div>
+</body>
+</html>
