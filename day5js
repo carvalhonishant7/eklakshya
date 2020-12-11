@@ -33,6 +33,52 @@ else{
 </body>
 </html>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------climatechoice.html------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function suggestuser(value){
+           
+            var a;
+            switch(value){
+                case  "rainy":
+                document.getElementById('mydiv').innerHTML='drink tea and samosa. enjoy rain';
+                    break;
+                case "summer":
+                document.getElementById('mydiv').innerHTML='eat icecream and go for swimming';
+                    break;
+                case "winter":
+                document.getElementById('mydiv').innerHTML="drink soup and sleep";
+                    break;
+                case "windy":
+                document.getElementById('mydiv').innerHTML="enjoy cyling and fly kite";
+                    break;
+
+
+
+            }
+            console.log(a);
+
+        }
+    </script>
+</head>
+<body>
+<select id="climate" onchange="suggestuser(this.value)">
+    <option value="select">---SELECT---</option>
+    <option value="rainy">rainy</option>
+    <option value="summer">summer</option>
+    <option value="windy">windy</option>
+    <option value="winter">winter</option>
+    </select>
+    <div id="mydiv"></div>
+</body>
+
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------reg.html-----------------------------------------------------------------------------------------
 <!DOCTYPE html>
@@ -172,6 +218,52 @@ else{
 
 </html>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------drop down---------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction(value) {
+          var a;
+          switch(value){
+                case "laptop":
+                document.getElementById("myid").innerHTML='lenovo, DEll, HP' ;
+             
+                    break;
+                case "mobile":
+                document.getElementById("myid").innerHTML='iphone';
+                    break;
+                case "tv":
+                document.getElementById('myid').innerHTML='sony,android, onida';
+                    break;
 
+        }
+        console.log(a);
+      }
+        </script>
+</head>
+<body>
+    
+<p><h3>Choose the electronic gadget from the list.</h3></p>
+
+<select id="class" onchange="myFunction(this.value)">
+    <option value="select">---SELECT---</option>
+  <option value="laptop">Laptop</option>
+  <option value="mobile">Mobile</option>
+ 
+  <option value="tv">TV</option>
+</select>
+
+
+
+
+<div id="myid" style="background-color: yellow; width: 300px; height: 150px;">Welcome to ABC showroom</div>
+
+</body>
+</html>
+-----------------------------------------------------------------------END---------------------------------------------------------------------------------------------
 
 
