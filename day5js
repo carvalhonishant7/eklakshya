@@ -234,7 +234,7 @@ else{
              
                     break;
                 case "mobile":
-                document.getElementById("myid").innerHTML='iphone';
+                document.getElementById("myid").innerHTML='iphone, MI, NOKIA';
                     break;
                 case "tv":
                 document.getElementById('myid').innerHTML='sony,android, onida';
