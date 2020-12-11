@@ -1,0 +1,177 @@
+--------------------------------------------------------------greater-html-----------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     num1=parseInt(prompt('enter first no:'));
+     num2=parseInt(prompt('enter second no:'));
+     num3=parseInt(prompt('enter third no:'));
+
+     if(isNaN(num1)||isNaN(num2)||isNaN(num3)){
+         alert('not a number')
+     }
+     else if(num1 >= num2 && num1 >= num3){
+         
+         document.write("the largest num is "+num1);
+     }
+     else if (num2 >= num1 && num2 >= num3) {
+        document.write("the largest num is "+num2);
+    }
+
+else{
+    document.write("the largest num is"+num3);
+
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------reg.html-----------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script>
+   function register()
+   {
+       array=['nishant','abner','smith','stallone','nash']
+      
+       for(let index=0;index<array.length;index++){
+
+        username=document.getElementById("uname").value;
+          if(username==array[index]){
+            alert("uname already exists");
+                break;
+          }
+          
+                
+            else
+                alert("you are registered sucessfully") 
+                break;
+
+       }
+       
+              
+   } 
+   
+     
+</script>	
+</head>
+<body>
+    Enter Name:<input type="text" id="uname"><br>
+    <input type="button" value="check" onclick=register()>
+    
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------login.html------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        username=['nishant','abner','smith','stallone','nash']
+        uname=prompt('Enter user')
+        if(!isNaN(uname))
+        {
+            alert('Enter name again!')
+        }
+        else if(username.indexOf(uname) !== -1)
+        {
+            alert("Welcome "+uname)
+        }
+        else{
+            alert('Wrong User')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------registeruser.html-----------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        array = ['nishant','abner','smith','stallone','nash']
+        name = prompt('enter name')
+
+        function validateUser() {
+            for (key in array) {
+                if (array[key] == name) {
+                    document.getElementById('mydiv').innerHTML = 'username already exists'
+                    break;
+                }
+
+                if (array[key] != name) {
+                    document.getElementById('mydiv').innerHTML = 'You are registered successfully'
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="verify" id="username" onclick="validateUser()">
+    <div id="mydiv" style="background-color: yellow; width: 200px;"></div>
+</body>
+
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------loginuser.html-------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        array = ['nishant','abner','smith','stallone','nash']
+        name = prompt('enter name-')
+
+        function loginUser() {
+            for (key in array) {
+                if (array[key] == name) {
+                    document.getElementById('mydiv').innerHTML = 'welcome ' + name;
+                    break;
+                }
+                if (array[key] != name) {
+                    document.getElementById('mydiv').innerHTML = 'wrong username! try again';
+                }
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="verify" id="username" onclick="loginUser()">
+    <br>
+    <br>
+    <div id="mydiv" style="background-color: yellow; width: 200px;"></div>
+</body>
+
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
