@@ -1,0 +1,44 @@
+------------------------------char.js----------------------------------------------------------
+var twister=`Peter Piper picked a peck of pickled peppers
+A peck of pickled peppers Peter Piper picked
+If Peter Piper picked a peck of pickled peppers
+Where’s the peck of pickled peppers Peter Piper picked?`
+function  printOddNums(){
+     var counter=0;
+    for (let i = 0; i < twister.length; i++) {
+        const element = twister[i];
+        if(twister[i]=="o")
+        {
+            counter++;
+        }
+       }
+       console.log("Number of o alphabets are-",counter)
+    
+}
+printOddNums(twister)
+----------------------------------------------------------------------------------------------
+--------------------------------------palindrome.js----------------------------------
+
+function checkPalindrome(string) {
+
+    const len = string.length;
+
+    
+    for (let i = 0; i < len / 2; i++) {
+
+      
+        if (string[i] !== string[len - 1 - i]) {
+            return 'It is not a palindrome';
+        }
+    }
+    return 'It is a palindrome';
+}
+
+
+value = checkPalindrome("Hello")
+
+
+
+console.log(value);
+
+-------------------------------------------------------------------------------------------------
