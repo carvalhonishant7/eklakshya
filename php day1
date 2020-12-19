@@ -1,0 +1,313 @@
+-----------------------------------------------------greater of 3 nos---------------------------------------
+<body>
+<?php
+    $num1=$_GET["num1"];
+    $num2=$_GET["num2"];
+    $num3=$_GET["num3"];
+    if($num1==''&& $num2='' && $num3=''){   
+      ?>
+         <form action="greater.php" method="get">
+        num1<input type="number" name="num1">
+        num2<input type="number" name="num2">
+        num3<input type="number" name="num3">
+        <input type="submit" value="calculate">
+        
+</form>
+<?php }  ?>
+
+
+<?php
+      if($num1>$num2 && $num1>$num3){
+        echo "greatest number is", $num1;
+      }
+      else{
+        if($num2>$num1 && $num2>$num3){
+          echo"greatest number is", $num2;
+        }
+        else
+          echo "greatest num is", $num3;
+      }
+?>
+
+
+
+</body>
+-----------------------------------------------------------------------------
+----------------------- calculator----------------------------------------------------------
+<body>
+    <form action="cal.php" method="get">
+        num1:<input type="number" name="num1"><br>
+        num2:<input type="number" name="num2"><br>
+        OP:<input type="text" name="op"><br>
+        <input type="submit" value="calculate">
+    </form>
+
+    <?php 
+        $num1=$_GET['num1'];
+        $num2=$_GET['num2'];
+        $op=$_GET['op'];
+        if($num1==''||$num2==''||$op==''){
+            echo 'Enter the fields';
+        }
+        elseif($op=='+'){
+            echo 'sum:';
+            echo $num1+$num2;
+        }
+        elseif($op=='-'){
+            echo 'diff:';
+            echo $num1-$num2;
+        }
+        elseif($op=='*'){
+            echo 'product:';
+            echo $num1*$num2;
+        }
+        elseif($op=='/'){
+            echo 'div:';
+            echo $num1/$num2;
+        }
+        elseif($op=='^'){
+            echo 'pow:';
+            echo pow($num1,$num2);
+        }
+    ?>
+</body>
+-------------------------------------------------------------------------------------
+------------------------------------average-------------------------------------------
+<form action="avg.php" method="get">
+        phy:<input type="number" name="p"><br>
+        chem:<input type="number" name="c"><br>
+        math:<input type="number" name="m"><br>
+        <input type="submit" value="calculate">
+    </form>
+<?php
+       $num1=$_GET['p'];
+       $num2=$_GET['c'];
+       $num2=$_GET['m'];
+$total = NULL;
+$average = NULL;
+
+
+$total = $num1 + $num2 + $num3 ;
+$average = $total / 3;
+
+
+echo "The Total marks   = " . $total . "<br>";
+echo "The Average marks = " . $average . "<br>";
+
+if($average>90){
+    echo 'grade is A+';
+}
+elseif($average<=90&& $average>80){
+    echo 'grade is B';
+}
+elseif($average<=80&& $average>70){
+    echo 'grade is C';
+}
+else{
+    echo 'grade is F';
+}
+
+
+?>
+</body>
+----------------------------------------------------------------------------------
+---------------------------------odd/even--------------------------------------------------------
+<body>
+<?php
+
+    $end=100;
+    $even= "Even Numbers Are : ";
+    $odd="<br /> Odd Numbers Are : ";
+
+    for($i=1;$i<=$end;$i++)
+    {
+        if($i%2==0)
+        {
+            $even.=$i.",";
+        }
+        else {
+            $odd.=$i.","; 
+        }
+    }   
+    echo $even.$odd;
+
+?>
+    
+</body>
+--------------------------------------------------------------------------------------
+----------------------------factorial------------------------------------
+<form action="fact.php" method="get">  
+    Enter the Number:<br>  
+    <input type="number" name="number" id="number">  
+    <input type="submit" name="submit" value="Submit" />  
+</form> 
+<?php   
+      
+        $fact = 1;  
+          
+        $number = $_GET['number'];  
+        echo "Factorial of $number:<br>";  
+  
+        for ($i = 1; $i <= $number; $i++){         
+            $fact = $fact * $i;  
+            }  
+            echo $fact . "<br>";  
+      
+?>  
+
+</body>
+-----------------------------------------------------------------------
+-----------------palindrome-----------------------------------------
+
+<body>
+<form method="get" action="pal.php">
+Enter string<input type="text" name="str"  />
+<input type="submit" name="submit" value="Submit" />
+</form>
+<?php
+
+    $input = $_GET['str'];
+    $reverse = strrev($input);
+    if($reverse == $input) {
+        echo $input . 'is a palindrome';
+        }
+    else{
+        echo $input. 'is not a palindrome';
+        }
+
+?>
+</body>
+---------------------------------------------------------------------------------
+--------------------------armstrong--------------------------------------------
+<body>
+<form method="get" action="arm.php">
+Enter number<input type="number" name="number"  >
+<input type="submit" name="submit" value="Submit" >
+</form>
+<?php
+    $num=$_GET['number'];  
+    $total=0;  
+    $x=$num;  
+    while($x!=0)  
+    {  
+    $rem=$x%10;  
+    $total=$total+$rem*$rem*$rem;  
+    $x=$x/10;  
+    }  
+    if($num==$total)  
+    {  
+    echo "Yes it is an Armstrong number";  
+    }  
+    else  
+    {  
+    echo "No it is not an armstrong number";  
+    } 
+?>
+</body>
+
+---------------------------------------------------------------------------------------
+-----------------------------fibonacci---------------------------------------
+<body>
+<?php  
+$num = 0;  
+$n1 = 0;  
+$n2 = 1;  
+echo "<h3>Fibonacci series for first 20 numbers: </h3>";  
+echo "\n";  
+echo $n1.' '.$n2.' ';  
+while ($num < 18 )  
+{  
+    $n3 = $n2 + $n1;  
+    echo $n3.' ';  
+    $n1 = $n2;  
+    $n2 = $n3;  
+    $num = $num + 1;  
+    }
+?> 
+</body>
+--------------------------------------------------------------------
+--------------------reverse----------------------------------------------------------
+<body>
+<form method="get" action="pal.php">
+Enter string<input type="text" name="str"  />
+<input type="submit" name="submit" value="Submit" />
+</form>
+<?php
+$string = $_GET['str'];
+$length = strlen($string);  
+    for ($i=($length-1) ; $i >= 0 ; $i--)   
+        {  
+            echo 'reversed string:' $string[$i];  
+        }  
+?>  
+</body>
+------------------------------------------------------
+-----------------------------vowel----------------------------------------------------
+<body>
+<form action="arm.php" method="get">
+        Enter string:<input type="text" name="string" >
+        <input type="submit" name="submit" value="Submit" >
+    </form>
+    <?php 
+     $string = strtolower($_GET['string']);
+
+     $vow = array('a','e','i','o','u');
+
+     $len = strlen($string);
+     $num = 0;
+
+     for($i=0; $i<$len; $i++){
+         if(in_array($string[$i], $vowel))
+         {
+             $num++;
+         }
+     }
+     echo "Number of vowels in the string :". $num .;
+ 
+
+?>
+</body>
+--------------------------------------------------------------------------------
+----------------------sumOfDigits------------------------------------------------------
+
+<body>
+<form method="get" action="dig.php">
+Enter number<input type="text" name="num"  />
+<input type="submit" name="submit" value="Submit" />
+</form>
+<?php
+
+    $num = $_GET['num'];
+    $sum=0; $rem=0;  
+    for ($i =0; $i<=strlen($num);$i++)  
+   {  
+    $rem=$num%10;  
+     $sum = $sum + $rem;  
+     $num=$num/10;  
+    }  
+   echo "Sum of digits is: $sum";  
+   ?>  
+</body>
+-----------------------------------------------------------------------------------------
+--------------swap--------------------------------------------------------------
+<form action="swap.php" method="get">
+        a:<input type="number" name="num1"><br>
+        b:<input type="numer" name="num2"><br>
+        <input type="submit" value="Swap">
+    </form>
+<?php  
+$a = $_GET['num1'];  
+$b = $_GET['num2']; 
+$third=0;  
+$third = $a;  
+$a = $b;  
+$b = $third;  
+echo "After swapping:<br><br>";  
+echo "a =".$a."  b=".$b;  
+?>  
+</body>
+----------------------------------------------------------------------------------------------------------
+
+
+
+
